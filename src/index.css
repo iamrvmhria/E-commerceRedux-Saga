@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App{
+  text-align: center;
+}
+
+.App-logo{
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header{
+  background-color: rgb(157, 234, 234);
+  height: 100px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.cart-div{
+  float: right;
+ right: 50px;
+ bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+.cart-div img{
+  width: 30px;
+}
+.cart-div span{
+  background-color: green;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+  color: #fff;
+}
+.cart-Btn{
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+  width: 125px;
+}
+
+.product-cart{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-container{
+  display: flex;
+flex-wrap: wrap;
+}
+.imageFromApi{
+  width: 200px;
+  height: 180px;
+}
+.product-item{
+  border: 1px solid rgb(224, 217, 217);
+  padding: 10px 10px 10px 15px;
+  margin: 10px;
+}
+.productBtn{
+  margin: 3px 0px;
+  margin-right: 5px;
+  padding: 3px;
+}
+.logo{
+  float: left;
+  position: relative;
+  left: 15px;
+  top: 20px;
+  color: black;
+}
+
+.cart-page-container{
+  display: flex;
+  margin: 0px 30px;
+}
+.cart-page-container table{
+  flex: 65%;
+  border-collapse: collapse;
+}
+.cart-page-container table td{
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.price-details{
+  flex: 35%;
+  margin: 0px 30px;
+}
+.adjust-price{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.adjust-price span{
+  font-size: 18px
+
+}
+.search-box{
+  /* float: left; */
+  margin: 0 auto;
+  width: 50%;
+  padding: 25px;
+}
+.search-box input
+{
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
